@@ -1,6 +1,6 @@
 # Colorful Adminer
 
-Do you want to distinguish your production adminer instance from your development one?
+Do you want to distinguish your production adminer docker instance from your development one?
 
 Turn
 ![default](https://user-images.githubusercontent.com/284338/31570996-c63c1444-b0e7-11e7-8e74-be89f25fe325.png)
