@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  adminer:
+    image: cilf/adminer
+    build:
+      context: .
+      args:
+        color: red
+    restart: always
+    ports:
+      - "8080:8080"
+    environment:
+      - ENV_NAME=PROD

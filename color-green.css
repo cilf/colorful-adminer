@@ -1,0 +1,24 @@
+
+/*dark #009862*/
+/*middle #6AD8B1*/
+/*light #96ECCE*/
+
+h2 {
+    background: #009862 !important;
+}
+
+thead td, thead th {
+    background: #96ECCE !important;
+}
+
+a {
+    color: #009862 !important;
+}
+
+a:visited {
+    color: #6AD8B1 !important;
+}
+
+.pages {
+    background: #96ECCE !important;
+}

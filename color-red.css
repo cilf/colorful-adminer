@@ -1,0 +1,24 @@
+
+/*dark #FF716D*/
+/*middle #FFA09D*/
+/*light #FFD8D7*/
+
+h2 {
+    background: #FF716D !important;
+}
+
+thead td, thead th {
+    background: #FFD8D7 !important;
+}
+
+a {
+    color: #FF716D !important;
+}
+
+a:visited {
+    color: #FFA09D !important;
+}
+
+.pages {
+    background: #FFD8D7 !important;
+}
