@@ -14,8 +14,14 @@ Into
 Run
 
 ```
-docker build -t cilf/adminer --build-arg color=red .
-docker run -it --rm -e ENV_NAME='PROD' -p 8080:8080 --name adminer -h adminer cilf/adminer
+docker run -it --rm -e ENV_NAME='PROD' -p 8080:8080 --name colorful-adminer -h colorful-adminer cilf/colorful-adminer
+```
+
+Or build your own docker image via
+
+```
+docker build -t colorful-adminer --build-arg color=red .
+docker run -it --rm -e ENV_NAME='PROD' -p 8080:8080 --name colorful-adminer -h colorful-adminer colorful-adminer
 ```
 
 Or
